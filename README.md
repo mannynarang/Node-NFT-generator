@@ -1,4 +1,4 @@
-# Welcome to HashLips 👄
+y# Welcome to HashLips 👄
 
 ![](https://github.com/HashLips/hashlips_art_engine/blob/main/logo.png)
 
@@ -261,5 +261,6 @@ Trait type: Iris
 ```
 
 Hope you create some awesome artworks with this code 👄
-#   N o d e - N F T - g e n e r a t o r  
+#   N o d e - N F T - g e n e r a t o r 
+ 
  

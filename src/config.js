@@ -10,15 +10,15 @@ const baseUri = "ipfs://NewUriToReplace";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1,
+    growEditionSizeTo: 10,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "background" },
+      { name: "eyes" },
+      { name: "hats" },
+      { name: "item" },
+      { name: "mouth" },
+      { name: "shell" },
+      { name: "skin" },
     ],
   },
 ];
@@ -41,7 +41,7 @@ const extraMetadata = {};
 
 const rarityDelimiter = "#";
 
-const uniqueDnaTorrance = 10000;
+const uniqueDnaTorrance = 150;
 
 const preview = {
   thumbPerRow: 5,
