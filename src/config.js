@@ -13,16 +13,15 @@ const layerConfigurations = [
     growEditionSizeTo: 10,
     layersOrder: [
       { name: "background" },
+      { name: "shell" },
+      { name: "skin" },
+      { name: "mouth" },
       { name: "eyes" },
       { name: "hats" },
       { name: "item" },
-      { name: "mouth" },
-      { name: "shell" },
-      { name: "skin" },
     ],
   },
 ];
-
 const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
