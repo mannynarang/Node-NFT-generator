@@ -112,7 +112,7 @@ const drawBackground = () => {
 const addMetadata = (_dna, _edition) => {
   let dateTime = Date.now();
   let tempMetadata = {
-    name: `#${_edition}`,
+    name: "Happy Turtle Beach Club "+`#${_edition}`,
     description: description,
     image: `${baseUri}/${_edition}.png`,
     edition: _edition,
