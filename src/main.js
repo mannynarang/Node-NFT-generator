@@ -112,15 +112,12 @@ const drawBackground = () => {
 const addMetadata = (_dna, _edition) => {
   let dateTime = Date.now();
   let tempMetadata = {
-    dna: sha1(_dna.join("")),
     name: `#${_edition}`,
     description: description,
     image: `${baseUri}/${_edition}.png`,
     edition: _edition,
-    date: dateTime,
-    ...extraMetadata,
     attributes: attributesList,
-    compiler: "HashLips Art Engine",
+  
   };
   metadataList.push(tempMetadata);
   attributesList = [];
@@ -130,7 +127,7 @@ const addAttributes = (_element) => {
   let selectedElement = _element.layer.selectedElement;
   attributesList.push({
     trait_type: _element.layer.name,
-    value: selectedElement.name,
+    value: (_element.layer.selectedElement.filename).split('#')[0],
   });
 };
 
