@@ -10,7 +10,7 @@ const baseUri = "ipfs://QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 3333,
+    growEditionSizeTo: 3500,
     layersOrder: [
       { name: "background" },
       { name: "shell" },
